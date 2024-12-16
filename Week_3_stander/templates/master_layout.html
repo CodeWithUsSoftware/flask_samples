@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}My Flask App{% endblock %}</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="max-w-5xl mx-auto space-y-10 mt-10">
+    <!-- Navigation Bar       -->
+    <div class="flex items-center gap-2 bg-indigo-500 text-white">
+      <a href="https://code.codewithus.com/@Veera/VeeraWS.main/apps/code-server/proxy/5000/"
+        class="p-2 bg-indigo-600 hover:bg-indigo-700">Index</a>
+      <a href="contact" class="p-2 hover:bg-indigo-700">Contact</a>
+      <a href="contact_list" class="p-2 hover:bg-indigo-700">Contact List</a>
+    </div>
+    <!-- Content -->
+    {% block content %}
+    <!-- Main Content Block -->
+    {% endblock %}
+    <!-- Footer Section -->
+    <footer class="bg-black text-white text-center p-5">
+      <h2>My Flask App @ 2024</h2>
+    </footer>
+  </div>
+</body>
+
+</html>
