@@ -1,6 +1,15 @@
-./Week_1/.venv
-./Week_3/.venv
-./Week_4/.venv
-./Week_1/__pycache__
-./Week_3/__pycache__
-./Week_4/__pycache__
+# ./Week_1/.venv
+# ./Week_3/.venv
+# ./Week_4/.venv
+# ./Week_1/__pycache__
+# ./Week_3/__pycache__
+# ./Week_4/__pycache__
+
+
+# Ignore virtual environments
+.venv/
+*/.venv/
+
+# Ignore __pycache__ directories
+__pycache__/
+*/__pycache__/
