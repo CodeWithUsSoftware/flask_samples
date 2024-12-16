@@ -1,1 +1,6 @@
-.venvs/
+./Week_1/.venv
+./Week_3/.venv
+./Week_4/.venv
+./Week_1/__pycache__
+./Week_3/__pycache__
+./Week_4/__pycache__
